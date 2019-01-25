@@ -1,0 +1,5 @@
+C:\Users\manin\source\repos\PaypointDemo\INumberSorter\bin\Debug\INumberSorter.dll
+C:\Users\manin\source\repos\PaypointDemo\INumberSorter\bin\Debug\INumberSorter.pdb
+C:\Users\manin\source\repos\PaypointDemo\INumberSorter\obj\Debug\INumberSorter.csproj.CoreCompileInputs.cache
+C:\Users\manin\source\repos\PaypointDemo\INumberSorter\obj\Debug\INumberSorter.dll
+C:\Users\manin\source\repos\PaypointDemo\INumberSorter\obj\Debug\INumberSorter.pdb
