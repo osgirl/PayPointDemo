@@ -1,0 +1,43 @@
+﻿@using PaypointDemo.Models
+@model IndexModel
+
+<div class="row">
+    <div class="col-md-6">
+        @using (Html.BeginForm("SortString", "Home", FormMethod.Post))
+        {
+            @Html.LabelFor(m => m.InputValues)
+            @Html.TextBoxFor(m => m.InputValues, new { @class = "form-control" , @oninput = "SetButton()"})
+            <br />
+            <input id="ButtonSort" class="btn btn-primary disabled" type="submit" value="Sort" />
+        }
+    </div>
+    <div class="col-md-6">
+        <table class="table">
+            @if(Model.SortedValues != null)
+            {
+                foreach(int i in Model.SortedValues)
+                {
+                    <tr><td>@i</td></tr>
+                }
+            }
+        </table>
+    </div>
+</div>
+
+<script>
+    @* Enables/Disables button depending on if text is placed inside it*@
+    function SetButton() {
+
+        var sortButton = document.getElementById("ButtonSort");
+        var inputValue = $("#InputValues").val()
+
+        if (inputValue.length > 0 && !isNaN(inputValue)) {
+            sortButton.className = "btn btn-primary active";
+            sortButton.disabled = false;
+        }
+        else {
+            sortButton.className = "btn btn-primary disabled";
+            sortButton.disabled = true;
+        }
+    }
+</script>
