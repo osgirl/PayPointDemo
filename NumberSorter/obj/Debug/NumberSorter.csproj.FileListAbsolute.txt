@@ -1,0 +1,9 @@
+C:\Users\manin\source\repos\PaypointDemo\NumberSorter\bin\Debug\NumberSorter.dll
+C:\Users\manin\source\repos\PaypointDemo\NumberSorter\bin\Debug\NumberSorter.pdb
+C:\Users\manin\source\repos\PaypointDemo\NumberSorter\bin\Debug\INumberSorter.dll
+C:\Users\manin\source\repos\PaypointDemo\NumberSorter\bin\Debug\INumberSorter.pdb
+C:\Users\manin\source\repos\PaypointDemo\NumberSorter\obj\Debug\NumberSorter.csprojAssemblyReference.cache
+C:\Users\manin\source\repos\PaypointDemo\NumberSorter\obj\Debug\NumberSorter.csproj.CoreCompileInputs.cache
+C:\Users\manin\source\repos\PaypointDemo\NumberSorter\obj\Debug\NumberSorter.csproj.CopyComplete
+C:\Users\manin\source\repos\PaypointDemo\NumberSorter\obj\Debug\NumberSorter.dll
+C:\Users\manin\source\repos\PaypointDemo\NumberSorter\obj\Debug\NumberSorter.pdb
