@@ -24,7 +24,7 @@ namespace NumberSorter
                 throw new ArgumentNullException();
             }
 
-            if(!int.TryParse(inputValues, out int n)){
+            if(!uint.TryParse(inputValues, out uint n)){
                 throw new ArgumentException("Input value must be a number");
             }
 
