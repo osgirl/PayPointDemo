@@ -31,7 +31,7 @@
         var sortButton = document.getElementById("ButtonSort");
         var inputValue = $("#InputValues").val()
 
-        if (inputValue.length > 0 && !isNaN(inputValue)) {
+        if (inputValue.length > 0 && !isNaN(inputValue) && inputValue < 4294967295) {
             sortButton.className = "btn btn-primary active";
             sortButton.disabled = false;
         }
